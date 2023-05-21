@@ -115,7 +115,6 @@ proxies:
   - {name: 🇸🇬 _SG_新加坡_3, server: nsafchjhtijntht.559xp5.cn, port: 443, type: trojan, password: c519d477-7bde-430a-9667-c02b46c31d6d, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡_4, server: li1faiubsvdnasjp2.559xp5.cn, port: 443, type: trojan, password: f0e93980-419f-4d05-ad92-bd9859c2dbed, skip-cert-verify: false}
   - {name: 🇺🇸 美国-康涅狄格-0-ss-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000, server: ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 中国-广东-深圳-ss-as.unlimitedtraffic.top:25815, server: as.unlimitedtraffic.top, port: 25815, type: ss, cipher: chacha20-ietf-poly1305, password: a3aed593-3415-4672-997d-15798bb301f1}
   - {name: 中国-广东-深圳-ss2-as.unlimitedtraffic.top:25815, server: as.unlimitedtraffic.top, port: 25815, type: ss, cipher: chacha20-ietf-poly1305, password: a3aed593-3415-4672-997d-15798bb301f1}
   - {name: 🇺🇸 美国-康涅狄格-0-ss2-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000, server: ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇺🇸 美国-加利福尼亚-0-v2ray-us2.01dj.sbs:443, server: us2.01dj.sbs, port: 443, type: vmess, uuid: 4dc3b73e-9c0a-477c-8a29-843849e9194e, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: us2.01dj.sbs}}}
@@ -830,7 +829,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
       - 🇺🇸 美国-康涅狄格-0-ss-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
-      - 中国-广东-深圳-ss-as.unlimitedtraffic.top:25815
       - 中国-广东-深圳-ss2-as.unlimitedtraffic.top:25815
       - 🇺🇸 美国-康涅狄格-0-ss2-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
       - 🇺🇸 美国-加利福尼亚-0-v2ray-us2.01dj.sbs:443
@@ -1544,7 +1542,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
       - 🇺🇸 美国-康涅狄格-0-ss-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
-      - 中国-广东-深圳-ss-as.unlimitedtraffic.top:25815
       - 中国-广东-深圳-ss2-as.unlimitedtraffic.top:25815
       - 🇺🇸 美国-康涅狄格-0-ss2-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
       - 🇺🇸 美国-加利福尼亚-0-v2ray-us2.01dj.sbs:443
@@ -2259,7 +2256,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
       - 🇺🇸 美国-康涅狄格-0-ss-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
-      - 中国-广东-深圳-ss-as.unlimitedtraffic.top:25815
       - 中国-广东-深圳-ss2-as.unlimitedtraffic.top:25815
       - 🇺🇸 美国-康涅狄格-0-ss2-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
       - 🇺🇸 美国-加利福尼亚-0-v2ray-us2.01dj.sbs:443
@@ -2986,7 +2982,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
       - 🇺🇸 美国-康涅狄格-0-ss-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
-      - 中国-广东-深圳-ss-as.unlimitedtraffic.top:25815
       - 中国-广东-深圳-ss2-as.unlimitedtraffic.top:25815
       - 🇺🇸 美国-康涅狄格-0-ss2-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
       - 🇺🇸 美国-加利福尼亚-0-v2ray-us2.01dj.sbs:443
@@ -3743,7 +3738,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
       - 🇺🇸 美国-康涅狄格-0-ss-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
-      - 中国-广东-深圳-ss-as.unlimitedtraffic.top:25815
       - 中国-广东-深圳-ss2-as.unlimitedtraffic.top:25815
       - 🇺🇸 美国-康涅狄格-0-ss2-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
       - 🇺🇸 美国-加利福尼亚-0-v2ray-us2.01dj.sbs:443
@@ -4457,7 +4451,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
       - 🇺🇸 美国-康涅狄格-0-ss-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
-      - 中国-广东-深圳-ss-as.unlimitedtraffic.top:25815
       - 中国-广东-深圳-ss2-as.unlimitedtraffic.top:25815
       - 🇺🇸 美国-康涅狄格-0-ss2-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
       - 🇺🇸 美国-加利福尼亚-0-v2ray-us2.01dj.sbs:443
@@ -5172,7 +5165,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
       - 🇺🇸 美国-康涅狄格-0-ss-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
-      - 中国-广东-深圳-ss-as.unlimitedtraffic.top:25815
       - 中国-广东-深圳-ss2-as.unlimitedtraffic.top:25815
       - 🇺🇸 美国-康涅狄格-0-ss2-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
       - 🇺🇸 美国-加利福尼亚-0-v2ray-us2.01dj.sbs:443
@@ -5896,7 +5888,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
       - 🇺🇸 美国-康涅狄格-0-ss-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
-      - 中国-广东-深圳-ss-as.unlimitedtraffic.top:25815
       - 中国-广东-深圳-ss2-as.unlimitedtraffic.top:25815
       - 🇺🇸 美国-康涅狄格-0-ss2-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
       - 🇺🇸 美国-加利福尼亚-0-v2ray-us2.01dj.sbs:443
