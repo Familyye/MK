@@ -123,12 +123,7 @@ proxies:
   - {name: 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋, server: nsafhijklggsddadawscae.559xp5.cn, port: 443, type: trojan, password: 2ba8ac92-1a83-4961-8acb-03156628aa8f, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡_3, server: nsafchjhtijntht.559xp5.cn, port: 443, type: trojan, password: c519d477-7bde-430a-9667-c02b46c31d6d, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡_4, server: li1faiubsvdnasjp2.559xp5.cn, port: 443, type: trojan, password: f0e93980-419f-4d05-ad92-bd9859c2dbed, skip-cert-verify: false}
-  - {name: 🇺🇸 美国-0-0-ss-38.75.136.102:7002, server: 38.75.136.102, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 美国-加利福尼亚-0-ss-167.160.91.118:22006, server: 167.160.91.118, port: 22006, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 美国-加利福尼亚-0-ss2-167.160.91.118:22006, server: 167.160.91.118, port: 22006, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇷🇺 俄罗斯-Novosibirskaya-0-v2ray-v2ray3.webgfw.top:2083, server: v2ray3.webgfw.top, port: 2083, type: vmess, uuid: 4cc72565-0d05-41e6-bc34-72aba9da544f, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /X9piqfat/, headers: {Host: v2ray3.webgfw.top}}}
-  - {name: 🇯🇵 日本-东京都-东京-v2ray-v7.583181.xyz:443, server: v7.583181.xyz, port: 443, type: vmess, uuid: c59ffd70-a414-4d7d-a061-a2621349fa69, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: v7.583181.xyz}}}
-  - {name: 🇫🇷 法国-0-0-v2ray-pl2-vmess.greenssh.xyz:443, server: pl2-vmess.greenssh.xyz, port: 443, type: vmess, uuid: 2e68015f-a8b2-4893-a7a3-4edb19b178d9, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: pl2-vmess.greenssh.xyz}}}
+  - {name: 🇸🇬 俄罗斯-Novosibirskaya-0-v2ray-do-sg.lzz.app:443, server: do-sg.lzz.app, port: 443, type: vmess, uuid: 0f8b517f-6ffd-4f8b-a129-910a64c26034, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /re, headers: {Host: do-sg.lzz.app}}}
   - {name: 🇬🇧 16|英国 008, server: wfi.sahnama.com, port: 443, type: vmess, uuid: 61280f80-cd25-4c7b-8e5a-b1560617047a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇦🇺 14|🇦🇺澳大利亚04, server: 5a4u04.abzoones.xyz, port: 36821, type: vmess, uuid: db0a627f-6667-4b89-9794-1591ee465bd7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: au04.abpilot.xyz}
   - {name: "🇨🇳 5,13|🇨🇳 台湾【付费推荐：v1.mk/vip】81", server: bgptw2.cnamazon.sbs, port: 443, type: trojan, password: 4658738d-c3f1-4ebf-ad7a-ee603e3f9690, sni: tlsdata.cnamazon.sbs, skip-cert-verify: false}
@@ -989,12 +984,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇺🇸 美国-0-0-ss-38.75.136.102:7002
-      - 🇺🇸 美国-加利福尼亚-0-ss-167.160.91.118:22006
-      - 🇺🇸 美国-加利福尼亚-0-ss2-167.160.91.118:22006
-      - 🇷🇺 俄罗斯-Novosibirskaya-0-v2ray-v2ray3.webgfw.top:2083
-      - 🇯🇵 日本-东京都-东京-v2ray-v7.583181.xyz:443
-      - 🇫🇷 法国-0-0-v2ray-pl2-vmess.greenssh.xyz:443
+      - 🇸🇬 俄罗斯-Novosibirskaya-0-v2ray-do-sg.lzz.app:443
       - 🇬🇧 16|英国 008
       - 🇦🇺 14|🇦🇺澳大利亚04
       - 🇨🇳 5,13|🇨🇳 台湾【付费推荐：v1.mk/vip】81
@@ -1854,12 +1844,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇺🇸 美国-0-0-ss-38.75.136.102:7002
-      - 🇺🇸 美国-加利福尼亚-0-ss-167.160.91.118:22006
-      - 🇺🇸 美国-加利福尼亚-0-ss2-167.160.91.118:22006
-      - 🇷🇺 俄罗斯-Novosibirskaya-0-v2ray-v2ray3.webgfw.top:2083
-      - 🇯🇵 日本-东京都-东京-v2ray-v7.583181.xyz:443
-      - 🇫🇷 法国-0-0-v2ray-pl2-vmess.greenssh.xyz:443
+      - 🇸🇬 俄罗斯-Novosibirskaya-0-v2ray-do-sg.lzz.app:443
       - 🇬🇧 16|英国 008
       - 🇦🇺 14|🇦🇺澳大利亚04
       - 🇨🇳 5,13|🇨🇳 台湾【付费推荐：v1.mk/vip】81
@@ -2720,12 +2705,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇺🇸 美国-0-0-ss-38.75.136.102:7002
-      - 🇺🇸 美国-加利福尼亚-0-ss-167.160.91.118:22006
-      - 🇺🇸 美国-加利福尼亚-0-ss2-167.160.91.118:22006
-      - 🇷🇺 俄罗斯-Novosibirskaya-0-v2ray-v2ray3.webgfw.top:2083
-      - 🇯🇵 日本-东京都-东京-v2ray-v7.583181.xyz:443
-      - 🇫🇷 法国-0-0-v2ray-pl2-vmess.greenssh.xyz:443
+      - 🇸🇬 俄罗斯-Novosibirskaya-0-v2ray-do-sg.lzz.app:443
       - 🇬🇧 16|英国 008
       - 🇦🇺 14|🇦🇺澳大利亚04
       - 🇨🇳 5,13|🇨🇳 台湾【付费推荐：v1.mk/vip】81
@@ -3598,12 +3578,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇺🇸 美国-0-0-ss-38.75.136.102:7002
-      - 🇺🇸 美国-加利福尼亚-0-ss-167.160.91.118:22006
-      - 🇺🇸 美国-加利福尼亚-0-ss2-167.160.91.118:22006
-      - 🇷🇺 俄罗斯-Novosibirskaya-0-v2ray-v2ray3.webgfw.top:2083
-      - 🇯🇵 日本-东京都-东京-v2ray-v7.583181.xyz:443
-      - 🇫🇷 法国-0-0-v2ray-pl2-vmess.greenssh.xyz:443
+      - 🇸🇬 俄罗斯-Novosibirskaya-0-v2ray-do-sg.lzz.app:443
       - 🇬🇧 16|英国 008
       - 🇦🇺 14|🇦🇺澳大利亚04
       - 🇨🇳 5,13|🇨🇳 台湾【付费推荐：v1.mk/vip】81
@@ -4500,12 +4475,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇺🇸 美国-0-0-ss-38.75.136.102:7002
-      - 🇺🇸 美国-加利福尼亚-0-ss-167.160.91.118:22006
-      - 🇺🇸 美国-加利福尼亚-0-ss2-167.160.91.118:22006
-      - 🇷🇺 俄罗斯-Novosibirskaya-0-v2ray-v2ray3.webgfw.top:2083
-      - 🇯🇵 日本-东京都-东京-v2ray-v7.583181.xyz:443
-      - 🇫🇷 法国-0-0-v2ray-pl2-vmess.greenssh.xyz:443
+      - 🇸🇬 俄罗斯-Novosibirskaya-0-v2ray-do-sg.lzz.app:443
       - 🇬🇧 16|英国 008
       - 🇦🇺 14|🇦🇺澳大利亚04
       - 🇨🇳 5,13|🇨🇳 台湾【付费推荐：v1.mk/vip】81
@@ -5365,12 +5335,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇺🇸 美国-0-0-ss-38.75.136.102:7002
-      - 🇺🇸 美国-加利福尼亚-0-ss-167.160.91.118:22006
-      - 🇺🇸 美国-加利福尼亚-0-ss2-167.160.91.118:22006
-      - 🇷🇺 俄罗斯-Novosibirskaya-0-v2ray-v2ray3.webgfw.top:2083
-      - 🇯🇵 日本-东京都-东京-v2ray-v7.583181.xyz:443
-      - 🇫🇷 法国-0-0-v2ray-pl2-vmess.greenssh.xyz:443
+      - 🇸🇬 俄罗斯-Novosibirskaya-0-v2ray-do-sg.lzz.app:443
       - 🇬🇧 16|英国 008
       - 🇦🇺 14|🇦🇺澳大利亚04
       - 🇨🇳 5,13|🇨🇳 台湾【付费推荐：v1.mk/vip】81
@@ -6231,12 +6196,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇺🇸 美国-0-0-ss-38.75.136.102:7002
-      - 🇺🇸 美国-加利福尼亚-0-ss-167.160.91.118:22006
-      - 🇺🇸 美国-加利福尼亚-0-ss2-167.160.91.118:22006
-      - 🇷🇺 俄罗斯-Novosibirskaya-0-v2ray-v2ray3.webgfw.top:2083
-      - 🇯🇵 日本-东京都-东京-v2ray-v7.583181.xyz:443
-      - 🇫🇷 法国-0-0-v2ray-pl2-vmess.greenssh.xyz:443
+      - 🇸🇬 俄罗斯-Novosibirskaya-0-v2ray-do-sg.lzz.app:443
       - 🇬🇧 16|英国 008
       - 🇦🇺 14|🇦🇺澳大利亚04
       - 🇨🇳 5,13|🇨🇳 台湾【付费推荐：v1.mk/vip】81
@@ -7106,12 +7066,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇺🇸 美国-0-0-ss-38.75.136.102:7002
-      - 🇺🇸 美国-加利福尼亚-0-ss-167.160.91.118:22006
-      - 🇺🇸 美国-加利福尼亚-0-ss2-167.160.91.118:22006
-      - 🇷🇺 俄罗斯-Novosibirskaya-0-v2ray-v2ray3.webgfw.top:2083
-      - 🇯🇵 日本-东京都-东京-v2ray-v7.583181.xyz:443
-      - 🇫🇷 法国-0-0-v2ray-pl2-vmess.greenssh.xyz:443
+      - 🇸🇬 俄罗斯-Novosibirskaya-0-v2ray-do-sg.lzz.app:443
       - 🇬🇧 16|英国 008
       - 🇦🇺 14|🇦🇺澳大利亚04
       - 🇨🇳 5,13|🇨🇳 台湾【付费推荐：v1.mk/vip】81
