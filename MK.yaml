@@ -122,7 +122,6 @@ proxies:
   - {name: 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋, server: nsafhijklggsddadawscae.559xp5.cn, port: 443, type: trojan, password: 2ba8ac92-1a83-4961-8acb-03156628aa8f, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡_3, server: nsafchjhtijntht.559xp5.cn, port: 443, type: trojan, password: c519d477-7bde-430a-9667-c02b46c31d6d, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡_4, server: li1faiubsvdnasjp2.559xp5.cn, port: 443, type: trojan, password: f0e93980-419f-4d05-ad92-bd9859c2dbed, skip-cert-verify: false}
-  - {name: 🇯🇵 日本-东京都-东京-v2ray-172.105.217.55:80, server: 172.105.217.55, port: 80, type: vmess, uuid: ec7c94b5-6ca6-4289-b44b-c6583f2c5f6c, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/fuzzyng?ed=2048"}}
   - {name: "🇺🇸 13,21|🇺🇸_US_美国_", server: 104.20.127.237, port: 443, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer09, headers: {Host: uyaa.vtcss.top}}}
   - {name: 🇰🇷 15|🇰🇷 South Korea 12 TG:@nodpai, server: 43.201.47.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: "🇯🇵 0,1,14,15,18|🇯🇵 _JP_日本_", server: oracle01.jiting.space, port: 38829, type: vmess, uuid: 590e49c2-dd24-41ff-91b8-cc792d0cfeab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
@@ -997,7 +996,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇯🇵 日本-东京都-东京-v2ray-172.105.217.55:80
       - 🇺🇸 13,21|🇺🇸_US_美国_
       - 🇰🇷 15|🇰🇷 South Korea 12 TG:@nodpai
       - 🇯🇵 0,1,14,15,18|🇯🇵 _JP_日本_
@@ -1871,7 +1869,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇯🇵 日本-东京都-东京-v2ray-172.105.217.55:80
       - 🇺🇸 13,21|🇺🇸_US_美国_
       - 🇰🇷 15|🇰🇷 South Korea 12 TG:@nodpai
       - 🇯🇵 0,1,14,15,18|🇯🇵 _JP_日本_
@@ -2746,7 +2743,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇯🇵 日本-东京都-东京-v2ray-172.105.217.55:80
       - 🇺🇸 13,21|🇺🇸_US_美国_
       - 🇰🇷 15|🇰🇷 South Korea 12 TG:@nodpai
       - 🇯🇵 0,1,14,15,18|🇯🇵 _JP_日本_
@@ -3633,7 +3629,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇯🇵 日本-东京都-东京-v2ray-172.105.217.55:80
       - 🇺🇸 13,21|🇺🇸_US_美国_
       - 🇰🇷 15|🇰🇷 South Korea 12 TG:@nodpai
       - 🇯🇵 0,1,14,15,18|🇯🇵 _JP_日本_
@@ -4549,7 +4544,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇯🇵 日本-东京都-东京-v2ray-172.105.217.55:80
       - 🇺🇸 13,21|🇺🇸_US_美国_
       - 🇰🇷 15|🇰🇷 South Korea 12 TG:@nodpai
       - 🇯🇵 0,1,14,15,18|🇯🇵 _JP_日本_
@@ -5423,7 +5417,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇯🇵 日本-东京都-东京-v2ray-172.105.217.55:80
       - 🇺🇸 13,21|🇺🇸_US_美国_
       - 🇰🇷 15|🇰🇷 South Korea 12 TG:@nodpai
       - 🇯🇵 0,1,14,15,18|🇯🇵 _JP_日本_
@@ -6298,7 +6291,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇯🇵 日本-东京都-东京-v2ray-172.105.217.55:80
       - 🇺🇸 13,21|🇺🇸_US_美国_
       - 🇰🇷 15|🇰🇷 South Korea 12 TG:@nodpai
       - 🇯🇵 0,1,14,15,18|🇯🇵 _JP_日本_
@@ -7182,7 +7174,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇯🇵 日本-东京都-东京-v2ray-172.105.217.55:80
       - 🇺🇸 13,21|🇺🇸_US_美国_
       - 🇰🇷 15|🇰🇷 South Korea 12 TG:@nodpai
       - 🇯🇵 0,1,14,15,18|🇯🇵 _JP_日本_
