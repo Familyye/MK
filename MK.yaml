@@ -129,9 +129,8 @@ proxies:
   - {name: 🇸🇬 _SG_新加坡_3, server: nsafchjhtijntht.559xp5.cn, port: 443, type: trojan, password: c519d477-7bde-430a-9667-c02b46c31d6d, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡_4, server: li1faiubsvdnasjp2.559xp5.cn, port: 443, type: trojan, password: f0e93980-419f-4d05-ad92-bd9859c2dbed, skip-cert-verify: false}
   - {name: 中国-浙江-杭州-ss-02-2.qqingca.cc:20315, server: 02-2.qqingca.cc, port: 20315, type: ss, cipher: chacha20-ietf-poly1305, password: 27e2f037-effd-493a-bd28-6004cd9ff1cf}
-  - {name: 🇺🇸 美国-康涅狄格-0-ss-13.215.184.178:443, server: 13.215.184.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 中国-浙江-杭州-ss2-02-2.qqingca.cc:20315, server: 02-2.qqingca.cc, port: 20315, type: ss, cipher: chacha20-ietf-poly1305, password: 27e2f037-effd-493a-bd28-6004cd9ff1cf}
-  - {name: 🇷🇺 俄罗斯-Novosibirskaya-0-v2ray-yuolee.vtcss.top:80, server: yuolee.vtcss.top, port: 80, type: vmess, uuid: a603bc16-1411-46e1-ceb4-1bb8451f0d91, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer, headers: {Host: yuolee.vtcss.top}}}
+  - {name: 中国-浙江-杭州-v2ray-yuolee.vtcss.top:80, server: yuolee.vtcss.top, port: 80, type: vmess, uuid: a603bc16-1411-46e1-ceb4-1bb8451f0d91, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer, headers: {Host: yuolee.vtcss.top}}}
   - {name: 🇳🇱 荷兰-0-0-v2ray-45.146.253.12:8880, server: 45.146.253.12, port: 8880, type: vmess, uuid: 6ad1b246-c927-43a8-b02c-902a03d604b9, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /telegram:uciranir}}
   - {name: 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443, server: s2.soly.sbs, port: 443, type: vmess, uuid: 72088fdd-4bf0-48ca-db98-fd180f403a33, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: s2.soly.sbs}}}
   - {name: 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80, server: v133.toddns.gq, port: 80, type: vmess, uuid: cd1836ed-78be-3dcb-9fb1-9d2a4bdfecb8, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v133PDXkklxLEcOvD, headers: {Host: v133.toddns.gq}}}
@@ -822,9 +821,8 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
       - 中国-浙江-杭州-ss-02-2.qqingca.cc:20315
-      - 🇺🇸 美国-康涅狄格-0-ss-13.215.184.178:443
       - 中国-浙江-杭州-ss2-02-2.qqingca.cc:20315
-      - 🇷🇺 俄罗斯-Novosibirskaya-0-v2ray-yuolee.vtcss.top:80
+      - 中国-浙江-杭州-v2ray-yuolee.vtcss.top:80
       - 🇳🇱 荷兰-0-0-v2ray-45.146.253.12:8880
       - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
       - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
@@ -1514,9 +1512,8 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
       - 中国-浙江-杭州-ss-02-2.qqingca.cc:20315
-      - 🇺🇸 美国-康涅狄格-0-ss-13.215.184.178:443
       - 中国-浙江-杭州-ss2-02-2.qqingca.cc:20315
-      - 🇷🇺 俄罗斯-Novosibirskaya-0-v2ray-yuolee.vtcss.top:80
+      - 中国-浙江-杭州-v2ray-yuolee.vtcss.top:80
       - 🇳🇱 荷兰-0-0-v2ray-45.146.253.12:8880
       - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
       - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
@@ -2207,9 +2204,8 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
       - 中国-浙江-杭州-ss-02-2.qqingca.cc:20315
-      - 🇺🇸 美国-康涅狄格-0-ss-13.215.184.178:443
       - 中国-浙江-杭州-ss2-02-2.qqingca.cc:20315
-      - 🇷🇺 俄罗斯-Novosibirskaya-0-v2ray-yuolee.vtcss.top:80
+      - 中国-浙江-杭州-v2ray-yuolee.vtcss.top:80
       - 🇳🇱 荷兰-0-0-v2ray-45.146.253.12:8880
       - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
       - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
@@ -2912,9 +2908,8 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
       - 中国-浙江-杭州-ss-02-2.qqingca.cc:20315
-      - 🇺🇸 美国-康涅狄格-0-ss-13.215.184.178:443
       - 中国-浙江-杭州-ss2-02-2.qqingca.cc:20315
-      - 🇷🇺 俄罗斯-Novosibirskaya-0-v2ray-yuolee.vtcss.top:80
+      - 中国-浙江-杭州-v2ray-yuolee.vtcss.top:80
       - 🇳🇱 荷兰-0-0-v2ray-45.146.253.12:8880
       - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
       - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
@@ -3642,9 +3637,8 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
       - 中国-浙江-杭州-ss-02-2.qqingca.cc:20315
-      - 🇺🇸 美国-康涅狄格-0-ss-13.215.184.178:443
       - 中国-浙江-杭州-ss2-02-2.qqingca.cc:20315
-      - 🇷🇺 俄罗斯-Novosibirskaya-0-v2ray-yuolee.vtcss.top:80
+      - 中国-浙江-杭州-v2ray-yuolee.vtcss.top:80
       - 🇳🇱 荷兰-0-0-v2ray-45.146.253.12:8880
       - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
       - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
@@ -4334,9 +4328,8 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
       - 中国-浙江-杭州-ss-02-2.qqingca.cc:20315
-      - 🇺🇸 美国-康涅狄格-0-ss-13.215.184.178:443
       - 中国-浙江-杭州-ss2-02-2.qqingca.cc:20315
-      - 🇷🇺 俄罗斯-Novosibirskaya-0-v2ray-yuolee.vtcss.top:80
+      - 中国-浙江-杭州-v2ray-yuolee.vtcss.top:80
       - 🇳🇱 荷兰-0-0-v2ray-45.146.253.12:8880
       - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
       - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
@@ -5027,9 +5020,8 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
       - 中国-浙江-杭州-ss-02-2.qqingca.cc:20315
-      - 🇺🇸 美国-康涅狄格-0-ss-13.215.184.178:443
       - 中国-浙江-杭州-ss2-02-2.qqingca.cc:20315
-      - 🇷🇺 俄罗斯-Novosibirskaya-0-v2ray-yuolee.vtcss.top:80
+      - 中国-浙江-杭州-v2ray-yuolee.vtcss.top:80
       - 🇳🇱 荷兰-0-0-v2ray-45.146.253.12:8880
       - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
       - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
@@ -5729,9 +5721,8 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
       - 中国-浙江-杭州-ss-02-2.qqingca.cc:20315
-      - 🇺🇸 美国-康涅狄格-0-ss-13.215.184.178:443
       - 中国-浙江-杭州-ss2-02-2.qqingca.cc:20315
-      - 🇷🇺 俄罗斯-Novosibirskaya-0-v2ray-yuolee.vtcss.top:80
+      - 中国-浙江-杭州-v2ray-yuolee.vtcss.top:80
       - 🇳🇱 荷兰-0-0-v2ray-45.146.253.12:8880
       - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
       - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
