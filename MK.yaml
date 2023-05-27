@@ -127,6 +127,7 @@ proxies:
   - {name: 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋, server: nsafhijklggsddadawscae.559xp5.cn, port: 443, type: trojan, password: 2ba8ac92-1a83-4961-8acb-03156628aa8f, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡_3, server: nsafchjhtijntht.559xp5.cn, port: 443, type: trojan, password: c519d477-7bde-430a-9667-c02b46c31d6d, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡_4, server: li1faiubsvdnasjp2.559xp5.cn, port: 443, type: trojan, password: f0e93980-419f-4d05-ad92-bd9859c2dbed, skip-cert-verify: false}
+  - {name: 🇺🇸 美国-加利福尼亚-0-v2ray-yuolee.vtcss.top:80, server: yuolee.vtcss.top, port: 80, type: vmess, uuid: a603bc16-1411-46e1-ceb4-1bb8451f0d91, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer, headers: {Host: yuolee.vtcss.top}}}
   - {name: "🇺🇸 7,8,9,10,27,28,29,30|_US_美国________", server: 104.24.156.177, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer, headers: {Host: tou.vtcss.top}}}
   - {name: "-1,20|US_172.247.148.82_05262023ff4d...", server: 172.247.148.82, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇺🇸 -1|🇺🇸US-142.4.106.253-0114, server: 142.4.106.253, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, servername: www.44716766.xyz, network: ws, ws-opts: {path: /path/1684316790433, headers: {Host: www.44716766.xyz}}}
@@ -869,6 +870,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
+      - 🇺🇸 美国-加利福尼亚-0-v2ray-yuolee.vtcss.top:80
       - 🇺🇸 7,8,9,10,27,28,29,30|_US_美国________
       - -1,20|US_172.247.148.82_05262023ff4d...
       - 🇺🇸 -1|🇺🇸US-142.4.106.253-0114
@@ -1610,6 +1612,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
+      - 🇺🇸 美国-加利福尼亚-0-v2ray-yuolee.vtcss.top:80
       - 🇺🇸 7,8,9,10,27,28,29,30|_US_美国________
       - -1,20|US_172.247.148.82_05262023ff4d...
       - 🇺🇸 -1|🇺🇸US-142.4.106.253-0114
@@ -2352,6 +2355,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
+      - 🇺🇸 美国-加利福尼亚-0-v2ray-yuolee.vtcss.top:80
       - 🇺🇸 7,8,9,10,27,28,29,30|_US_美国________
       - -1,20|US_172.247.148.82_05262023ff4d...
       - 🇺🇸 -1|🇺🇸US-142.4.106.253-0114
@@ -3106,6 +3110,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
+      - 🇺🇸 美国-加利福尼亚-0-v2ray-yuolee.vtcss.top:80
       - 🇺🇸 7,8,9,10,27,28,29,30|_US_美国________
       - -1,20|US_172.247.148.82_05262023ff4d...
       - 🇺🇸 -1|🇺🇸US-142.4.106.253-0114
@@ -3884,6 +3889,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
+      - 🇺🇸 美国-加利福尼亚-0-v2ray-yuolee.vtcss.top:80
       - 🇺🇸 7,8,9,10,27,28,29,30|_US_美国________
       - -1,20|US_172.247.148.82_05262023ff4d...
       - 🇺🇸 -1|🇺🇸US-142.4.106.253-0114
@@ -4625,6 +4631,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
+      - 🇺🇸 美国-加利福尼亚-0-v2ray-yuolee.vtcss.top:80
       - 🇺🇸 7,8,9,10,27,28,29,30|_US_美国________
       - -1,20|US_172.247.148.82_05262023ff4d...
       - 🇺🇸 -1|🇺🇸US-142.4.106.253-0114
@@ -5367,6 +5374,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
+      - 🇺🇸 美国-加利福尼亚-0-v2ray-yuolee.vtcss.top:80
       - 🇺🇸 7,8,9,10,27,28,29,30|_US_美国________
       - -1,20|US_172.247.148.82_05262023ff4d...
       - 🇺🇸 -1|🇺🇸US-142.4.106.253-0114
@@ -6118,6 +6126,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
+      - 🇺🇸 美国-加利福尼亚-0-v2ray-yuolee.vtcss.top:80
       - 🇺🇸 7,8,9,10,27,28,29,30|_US_美国________
       - -1,20|US_172.247.148.82_05262023ff4d...
       - 🇺🇸 -1|🇺🇸US-142.4.106.253-0114
