@@ -123,6 +123,7 @@ proxies:
   - {name: 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋, server: nsafhijklggsddadawscae.559xp5.cn, port: 443, type: trojan, password: 2ba8ac92-1a83-4961-8acb-03156628aa8f, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡_3, server: nsafchjhtijntht.559xp5.cn, port: 443, type: trojan, password: c519d477-7bde-430a-9667-c02b46c31d6d, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡_4, server: li1faiubsvdnasjp2.559xp5.cn, port: 443, type: trojan, password: f0e93980-419f-4d05-ad92-bd9859c2dbed, skip-cert-verify: false}
+  - {name: 🇫🇷 法国-0-0-v2ray-fr2-vmess.greenssh.xyz:80, server: fr2-vmess.greenssh.xyz, port: 80, type: vmess, uuid: 9a555ca5-111c-4a88-a893-ed9b25b817a2, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: fr2-vmess.greenssh.xyz}}}
   - {name: "-1,20|4Jadi-105", server: 104.233.129.82, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/220128071100}}
   - {name: 🇦🇷 21|阿根廷 04 | 1x AR, server: 7c1a1r04.mcfront.xyz, port: 31861, type: vmess, uuid: 5b436144-1818-4a70-9dc9-7ea6e396eb1f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ar04.lovemc.xyz}
   - {name: -1|Pool_🇺🇸US_1623, server: 45.58.180.143, port: 55211, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
@@ -889,6 +890,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
+      - 🇫🇷 法国-0-0-v2ray-fr2-vmess.greenssh.xyz:80
       - -1,20|4Jadi-105
       - 🇦🇷 21|阿根廷 04 | 1x AR
       - -1|Pool_🇺🇸US_1623
@@ -1654,6 +1656,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
+      - 🇫🇷 法国-0-0-v2ray-fr2-vmess.greenssh.xyz:80
       - -1,20|4Jadi-105
       - 🇦🇷 21|阿根廷 04 | 1x AR
       - -1|Pool_🇺🇸US_1623
@@ -2420,6 +2423,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
+      - 🇫🇷 法国-0-0-v2ray-fr2-vmess.greenssh.xyz:80
       - -1,20|4Jadi-105
       - 🇦🇷 21|阿根廷 04 | 1x AR
       - -1|Pool_🇺🇸US_1623
@@ -3198,6 +3202,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
+      - 🇫🇷 法国-0-0-v2ray-fr2-vmess.greenssh.xyz:80
       - -1,20|4Jadi-105
       - 🇦🇷 21|阿根廷 04 | 1x AR
       - -1|Pool_🇺🇸US_1623
@@ -4002,6 +4007,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
+      - 🇫🇷 法国-0-0-v2ray-fr2-vmess.greenssh.xyz:80
       - -1,20|4Jadi-105
       - 🇦🇷 21|阿根廷 04 | 1x AR
       - -1|Pool_🇺🇸US_1623
@@ -4767,6 +4773,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
+      - 🇫🇷 法国-0-0-v2ray-fr2-vmess.greenssh.xyz:80
       - -1,20|4Jadi-105
       - 🇦🇷 21|阿根廷 04 | 1x AR
       - -1|Pool_🇺🇸US_1623
@@ -5533,6 +5540,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
+      - 🇫🇷 法国-0-0-v2ray-fr2-vmess.greenssh.xyz:80
       - -1,20|4Jadi-105
       - 🇦🇷 21|阿根廷 04 | 1x AR
       - -1|Pool_🇺🇸US_1623
@@ -6308,6 +6316,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
+      - 🇫🇷 法国-0-0-v2ray-fr2-vmess.greenssh.xyz:80
       - -1,20|4Jadi-105
       - 🇦🇷 21|阿根廷 04 | 1x AR
       - -1|Pool_🇺🇸US_1623
