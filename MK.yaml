@@ -103,17 +103,38 @@ proxies:
   - {name: 🇨🇳 CN-111.47.212.60-148, server: gzyd.jcnode.top, port: 23005, type: trojan, password: 8b69ee0d-efb7-49d8-8664-a5fe4650f9b3, sni: sg03.ckcloud.info, skip-cert-verify: false}
   - {name: 🇨🇳 CN-111.47.212.60-275, server: gzyd.jcnode.top, port: 23005, type: trojan, password: 93110671-1a31-4fdb-bb7e-797d8272da14, sni: sg03.ckcloud.info, skip-cert-verify: false}
   - {name: NOWHERE-0.0.0.0-281, server: 2233Cloud, port: 443, type: trojan, password: 009a2d44-f2f0-3696-89e2-96c05621e2e4, sni: 2233Cloud, skip-cert-verify: false}
+  - {name: 🇨🇳 _CN_中国_1, server: 14.116.151.100, port: 63093, type: vmess, uuid: 311f3c4b-90a1-3c5c-a4fe-215cc7c90d02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇫🇷 _FR_法国_1, server: 54.36.174.181, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇫🇷 _FR_法国_2, server: 54.36.174.181, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇳🇱 _NL_荷兰_1, server: 172.99.188.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇳🇱 _NL_荷兰_2, server: 172.99.188.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇳🇱 _NL_荷兰_3, server: 172.99.188.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇳🇱 _NL_荷兰_4, server: ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇳🇱 _NL_荷兰_5, server: 172.99.188.99, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇳🇱 _NL_荷兰_6, server: 172.99.188.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇳🇱 _NL_荷兰_7, server: 172.99.188.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇳🇱 _NL_荷兰_8, server: 172.99.188.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇳🇱 _NL_荷兰_9, server: ak1643.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇳 _CN_中国_2, server: 123.249.101.15, port: 19709, type: vmess, uuid: 2f278a45-940a-46c1-c886-77f3b2d33987, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 _US_美国_1, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vde2.0bad.com}}}
+  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾, server: 14.29.124.168, port: 24001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇰🇷 _KR_韩国, server: kr1.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk}
+  - {name: 🇸🇬 _SG_新加坡_1, server: li1hkv2b.559xp5.cn, port: 443, type: trojan, password: 659bb4b2-8d8d-4bd5-8db9-16ec53b71201, skip-cert-verify: false}
+  - {name: 🇸🇬 _SG_新加坡_2, server: bacmlwrkoph.559xp5.cn, port: 443, type: trojan, password: 808841b0-6730-458c-b11f-d6c33011d605, skip-cert-verify: false}
+  - {name: 🇸🇬 _SG_新加坡->🇯🇵_JP_日本, server: nsaghhfhintt100tw.559xp5.cn, port: 443, type: trojan, password: 659bb4b2-8d8d-4bd5-8db9-16ec53b71201, skip-cert-verify: false}
+  - {name: 🇯🇵 _JP_日本, server: vjp1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vjp1.0bad.com, network: ws, ws-opts: {path: /chat, headers: {Host: vjp1.0bad.com}}}
+  - {name: 🇺🇸 _US_美国_2, server: vus3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vus3.0bad.com, network: ws, ws-opts: {path: /chat, headers: {Host: vus3.0bad.com}}}
+  - {name: 🇦🇹 _FR_法国->🇦🇹_AT_奥地利, server: 135.125.244.103, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋, server: nsafhijklggsddadawscae.559xp5.cn, port: 443, type: trojan, password: 2ba8ac92-1a83-4961-8acb-03156628aa8f, skip-cert-verify: false}
+  - {name: 🇸🇬 _SG_新加坡_3, server: nsafchjhtijntht.559xp5.cn, port: 443, type: trojan, password: c519d477-7bde-430a-9667-c02b46c31d6d, skip-cert-verify: false}
+  - {name: 🇸🇬 _SG_新加坡_4, server: li1faiubsvdnasjp2.559xp5.cn, port: 443, type: trojan, password: f0e93980-419f-4d05-ad92-bd9859c2dbed, skip-cert-verify: false}
   - {name: 中国-浙江-杭州-ss-04-1.qqingca.cc:20371, server: 04-1.qqingca.cc, port: 20371, type: ss, cipher: chacha20-ietf-poly1305, password: 27e2f037-effd-493a-bd28-6004cd9ff1cf}
   - {name: 中国-浙江-杭州-ss-04-2.qqingca.cc:20379, server: 04-2.qqingca.cc, port: 20379, type: ss, cipher: chacha20-ietf-poly1305, password: 27e2f037-effd-493a-bd28-6004cd9ff1cf}
   - {name: 中国-浙江-杭州-ss-04-2.qqingca.cc:20349, server: 04-2.qqingca.cc, port: 20349, type: ss, cipher: chacha20-ietf-poly1305, password: 27e2f037-effd-493a-bd28-6004cd9ff1cf}
-  - {name: 中国-浙江-杭州-ss2-02-2.qqingca.cc:20315, server: 02-2.qqingca.cc, port: 20315, type: ss, cipher: chacha20-ietf-poly1305, password: 27e2f037-effd-493a-bd28-6004cd9ff1cf}
   - {name: 中国-浙江-杭州-ss2-04-1.qqingca.cc:20371, server: 04-1.qqingca.cc, port: 20371, type: ss, cipher: chacha20-ietf-poly1305, password: 27e2f037-effd-493a-bd28-6004cd9ff1cf}
   - {name: 中国-浙江-杭州-ss2-04-2.qqingca.cc:20349, server: 04-2.qqingca.cc, port: 20349, type: ss, cipher: chacha20-ietf-poly1305, password: 27e2f037-effd-493a-bd28-6004cd9ff1cf}
-  - {name: 中国-辽宁-鞍山-ss2-free.themars.top:32101, server: free.themars.top, port: 32101, type: ss, cipher: chacha20-ietf-poly1305, password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2}
-  - {name: 中国-辽宁-鞍山-v2ray-yuolee.vtcss.top:80, server: yuolee.vtcss.top, port: 80, type: vmess, uuid: a603bc16-1411-46e1-ceb4-1bb8451f0d91, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer, headers: {Host: yuolee.vtcss.top}}}
   - {name: 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443, server: s2.soly.sbs, port: 443, type: vmess, uuid: 72088fdd-4bf0-48ca-db98-fd180f403a33, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: s2.soly.sbs}}}
   - {name: 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80, server: v133.toddns.gq, port: 80, type: vmess, uuid: cd1836ed-78be-3dcb-9fb1-9d2a4bdfecb8, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v133PDXkklxLEcOvD, headers: {Host: v133.toddns.gq}}}
-  - {name: 🇺🇸 美国-0-0-v2ray-armus.114514782.xyz:2052, server: armus.114514782.xyz, port: 2052, type: vmess, uuid: 76d0950e-b8ff-37e7-8ead-79af2a07e455, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /miao, headers: {Host: armus.114514782.xyz}}}
   - {name: 🇸🇬 16|新加坡 004, server: 316sg01.ljydw.top, port: 443, type: trojan, password: b26e271e-fdee-4d37-aa13-0c788c1e3ed8, sni: 316sg01.ljydw.top, skip-cert-verify: false}
   - {name: 🇺🇸 19|_🇺🇸_US_美国_由零開始_27__, server: 104.21.112.250, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer11, headers: {Host: tou.vtcss.top}}}
   - {name: "🇺🇸 -1,16,20|美国 052", server: 192.74.242.138, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
@@ -807,17 +828,38 @@ proxy-groups:
       - 🇨🇳 CN-111.47.212.60-148
       - 🇨🇳 CN-111.47.212.60-275
       - NOWHERE-0.0.0.0-281
+      - 🇨🇳 _CN_中国_1
+      - 🇫🇷 _FR_法国_1
+      - 🇫🇷 _FR_法国_2
+      - 🇳🇱 _NL_荷兰_1
+      - 🇳🇱 _NL_荷兰_2
+      - 🇳🇱 _NL_荷兰_3
+      - 🇳🇱 _NL_荷兰_4
+      - 🇳🇱 _NL_荷兰_5
+      - 🇳🇱 _NL_荷兰_6
+      - 🇳🇱 _NL_荷兰_7
+      - 🇳🇱 _NL_荷兰_8
+      - 🇳🇱 _NL_荷兰_9
+      - 🇨🇳 _CN_中国_2
+      - 🇺🇸 _US_美国_1
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇰🇷 _KR_韩国
+      - 🇸🇬 _SG_新加坡_1
+      - 🇸🇬 _SG_新加坡_2
+      - 🇸🇬 _SG_新加坡->🇯🇵_JP_日本
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 _US_美国_2
+      - 🇦🇹 _FR_法国->🇦🇹_AT_奥地利
+      - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
+      - 🇸🇬 _SG_新加坡_3
+      - 🇸🇬 _SG_新加坡_4
       - 中国-浙江-杭州-ss-04-1.qqingca.cc:20371
       - 中国-浙江-杭州-ss-04-2.qqingca.cc:20379
       - 中国-浙江-杭州-ss-04-2.qqingca.cc:20349
-      - 中国-浙江-杭州-ss2-02-2.qqingca.cc:20315
       - 中国-浙江-杭州-ss2-04-1.qqingca.cc:20371
       - 中国-浙江-杭州-ss2-04-2.qqingca.cc:20349
-      - 中国-辽宁-鞍山-ss2-free.themars.top:32101
-      - 中国-辽宁-鞍山-v2ray-yuolee.vtcss.top:80
       - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
       - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
-      - 🇺🇸 美国-0-0-v2ray-armus.114514782.xyz:2052
       - 🇸🇬 16|新加坡 004
       - 🇺🇸 19|_🇺🇸_US_美国_由零開始_27__
       - 🇺🇸 -1,16,20|美国 052
@@ -1510,17 +1552,38 @@ proxy-groups:
       - 🇨🇳 CN-111.47.212.60-148
       - 🇨🇳 CN-111.47.212.60-275
       - NOWHERE-0.0.0.0-281
+      - 🇨🇳 _CN_中国_1
+      - 🇫🇷 _FR_法国_1
+      - 🇫🇷 _FR_法国_2
+      - 🇳🇱 _NL_荷兰_1
+      - 🇳🇱 _NL_荷兰_2
+      - 🇳🇱 _NL_荷兰_3
+      - 🇳🇱 _NL_荷兰_4
+      - 🇳🇱 _NL_荷兰_5
+      - 🇳🇱 _NL_荷兰_6
+      - 🇳🇱 _NL_荷兰_7
+      - 🇳🇱 _NL_荷兰_8
+      - 🇳🇱 _NL_荷兰_9
+      - 🇨🇳 _CN_中国_2
+      - 🇺🇸 _US_美国_1
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇰🇷 _KR_韩国
+      - 🇸🇬 _SG_新加坡_1
+      - 🇸🇬 _SG_新加坡_2
+      - 🇸🇬 _SG_新加坡->🇯🇵_JP_日本
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 _US_美国_2
+      - 🇦🇹 _FR_法国->🇦🇹_AT_奥地利
+      - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
+      - 🇸🇬 _SG_新加坡_3
+      - 🇸🇬 _SG_新加坡_4
       - 中国-浙江-杭州-ss-04-1.qqingca.cc:20371
       - 中国-浙江-杭州-ss-04-2.qqingca.cc:20379
       - 中国-浙江-杭州-ss-04-2.qqingca.cc:20349
-      - 中国-浙江-杭州-ss2-02-2.qqingca.cc:20315
       - 中国-浙江-杭州-ss2-04-1.qqingca.cc:20371
       - 中国-浙江-杭州-ss2-04-2.qqingca.cc:20349
-      - 中国-辽宁-鞍山-ss2-free.themars.top:32101
-      - 中国-辽宁-鞍山-v2ray-yuolee.vtcss.top:80
       - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
       - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
-      - 🇺🇸 美国-0-0-v2ray-armus.114514782.xyz:2052
       - 🇸🇬 16|新加坡 004
       - 🇺🇸 19|_🇺🇸_US_美国_由零開始_27__
       - 🇺🇸 -1,16,20|美国 052
@@ -2214,17 +2277,38 @@ proxy-groups:
       - 🇨🇳 CN-111.47.212.60-148
       - 🇨🇳 CN-111.47.212.60-275
       - NOWHERE-0.0.0.0-281
+      - 🇨🇳 _CN_中国_1
+      - 🇫🇷 _FR_法国_1
+      - 🇫🇷 _FR_法国_2
+      - 🇳🇱 _NL_荷兰_1
+      - 🇳🇱 _NL_荷兰_2
+      - 🇳🇱 _NL_荷兰_3
+      - 🇳🇱 _NL_荷兰_4
+      - 🇳🇱 _NL_荷兰_5
+      - 🇳🇱 _NL_荷兰_6
+      - 🇳🇱 _NL_荷兰_7
+      - 🇳🇱 _NL_荷兰_8
+      - 🇳🇱 _NL_荷兰_9
+      - 🇨🇳 _CN_中国_2
+      - 🇺🇸 _US_美国_1
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇰🇷 _KR_韩国
+      - 🇸🇬 _SG_新加坡_1
+      - 🇸🇬 _SG_新加坡_2
+      - 🇸🇬 _SG_新加坡->🇯🇵_JP_日本
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 _US_美国_2
+      - 🇦🇹 _FR_法国->🇦🇹_AT_奥地利
+      - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
+      - 🇸🇬 _SG_新加坡_3
+      - 🇸🇬 _SG_新加坡_4
       - 中国-浙江-杭州-ss-04-1.qqingca.cc:20371
       - 中国-浙江-杭州-ss-04-2.qqingca.cc:20379
       - 中国-浙江-杭州-ss-04-2.qqingca.cc:20349
-      - 中国-浙江-杭州-ss2-02-2.qqingca.cc:20315
       - 中国-浙江-杭州-ss2-04-1.qqingca.cc:20371
       - 中国-浙江-杭州-ss2-04-2.qqingca.cc:20349
-      - 中国-辽宁-鞍山-ss2-free.themars.top:32101
-      - 中国-辽宁-鞍山-v2ray-yuolee.vtcss.top:80
       - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
       - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
-      - 🇺🇸 美国-0-0-v2ray-armus.114514782.xyz:2052
       - 🇸🇬 16|新加坡 004
       - 🇺🇸 19|_🇺🇸_US_美国_由零開始_27__
       - 🇺🇸 -1,16,20|美国 052
@@ -2930,17 +3014,38 @@ proxy-groups:
       - 🇨🇳 CN-111.47.212.60-148
       - 🇨🇳 CN-111.47.212.60-275
       - NOWHERE-0.0.0.0-281
+      - 🇨🇳 _CN_中国_1
+      - 🇫🇷 _FR_法国_1
+      - 🇫🇷 _FR_法国_2
+      - 🇳🇱 _NL_荷兰_1
+      - 🇳🇱 _NL_荷兰_2
+      - 🇳🇱 _NL_荷兰_3
+      - 🇳🇱 _NL_荷兰_4
+      - 🇳🇱 _NL_荷兰_5
+      - 🇳🇱 _NL_荷兰_6
+      - 🇳🇱 _NL_荷兰_7
+      - 🇳🇱 _NL_荷兰_8
+      - 🇳🇱 _NL_荷兰_9
+      - 🇨🇳 _CN_中国_2
+      - 🇺🇸 _US_美国_1
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇰🇷 _KR_韩国
+      - 🇸🇬 _SG_新加坡_1
+      - 🇸🇬 _SG_新加坡_2
+      - 🇸🇬 _SG_新加坡->🇯🇵_JP_日本
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 _US_美国_2
+      - 🇦🇹 _FR_法国->🇦🇹_AT_奥地利
+      - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
+      - 🇸🇬 _SG_新加坡_3
+      - 🇸🇬 _SG_新加坡_4
       - 中国-浙江-杭州-ss-04-1.qqingca.cc:20371
       - 中国-浙江-杭州-ss-04-2.qqingca.cc:20379
       - 中国-浙江-杭州-ss-04-2.qqingca.cc:20349
-      - 中国-浙江-杭州-ss2-02-2.qqingca.cc:20315
       - 中国-浙江-杭州-ss2-04-1.qqingca.cc:20371
       - 中国-浙江-杭州-ss2-04-2.qqingca.cc:20349
-      - 中国-辽宁-鞍山-ss2-free.themars.top:32101
-      - 中国-辽宁-鞍山-v2ray-yuolee.vtcss.top:80
       - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
       - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
-      - 🇺🇸 美国-0-0-v2ray-armus.114514782.xyz:2052
       - 🇸🇬 16|新加坡 004
       - 🇺🇸 19|_🇺🇸_US_美国_由零開始_27__
       - 🇺🇸 -1,16,20|美国 052
@@ -3534,6 +3639,7 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
       - 🇨🇳 21|台湾 06  | 1x TWN
       - 🇭🇰 31,31,31,31,31|JCBB_香港03_1【vip1】
       - 🇭🇰 21|香港 04 | 1x HK
@@ -3666,17 +3772,38 @@ proxy-groups:
       - 🇨🇳 CN-111.47.212.60-148
       - 🇨🇳 CN-111.47.212.60-275
       - NOWHERE-0.0.0.0-281
+      - 🇨🇳 _CN_中国_1
+      - 🇫🇷 _FR_法国_1
+      - 🇫🇷 _FR_法国_2
+      - 🇳🇱 _NL_荷兰_1
+      - 🇳🇱 _NL_荷兰_2
+      - 🇳🇱 _NL_荷兰_3
+      - 🇳🇱 _NL_荷兰_4
+      - 🇳🇱 _NL_荷兰_5
+      - 🇳🇱 _NL_荷兰_6
+      - 🇳🇱 _NL_荷兰_7
+      - 🇳🇱 _NL_荷兰_8
+      - 🇳🇱 _NL_荷兰_9
+      - 🇨🇳 _CN_中国_2
+      - 🇺🇸 _US_美国_1
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇰🇷 _KR_韩国
+      - 🇸🇬 _SG_新加坡_1
+      - 🇸🇬 _SG_新加坡_2
+      - 🇸🇬 _SG_新加坡->🇯🇵_JP_日本
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 _US_美国_2
+      - 🇦🇹 _FR_法国->🇦🇹_AT_奥地利
+      - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
+      - 🇸🇬 _SG_新加坡_3
+      - 🇸🇬 _SG_新加坡_4
       - 中国-浙江-杭州-ss-04-1.qqingca.cc:20371
       - 中国-浙江-杭州-ss-04-2.qqingca.cc:20379
       - 中国-浙江-杭州-ss-04-2.qqingca.cc:20349
-      - 中国-浙江-杭州-ss2-02-2.qqingca.cc:20315
       - 中国-浙江-杭州-ss2-04-1.qqingca.cc:20371
       - 中国-浙江-杭州-ss2-04-2.qqingca.cc:20349
-      - 中国-辽宁-鞍山-ss2-free.themars.top:32101
-      - 中国-辽宁-鞍山-v2ray-yuolee.vtcss.top:80
       - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
       - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
-      - 🇺🇸 美国-0-0-v2ray-armus.114514782.xyz:2052
       - 🇸🇬 16|新加坡 004
       - 🇺🇸 19|_🇺🇸_US_美国_由零開始_27__
       - 🇺🇸 -1,16,20|美国 052
@@ -4369,17 +4496,38 @@ proxy-groups:
       - 🇨🇳 CN-111.47.212.60-148
       - 🇨🇳 CN-111.47.212.60-275
       - NOWHERE-0.0.0.0-281
+      - 🇨🇳 _CN_中国_1
+      - 🇫🇷 _FR_法国_1
+      - 🇫🇷 _FR_法国_2
+      - 🇳🇱 _NL_荷兰_1
+      - 🇳🇱 _NL_荷兰_2
+      - 🇳🇱 _NL_荷兰_3
+      - 🇳🇱 _NL_荷兰_4
+      - 🇳🇱 _NL_荷兰_5
+      - 🇳🇱 _NL_荷兰_6
+      - 🇳🇱 _NL_荷兰_7
+      - 🇳🇱 _NL_荷兰_8
+      - 🇳🇱 _NL_荷兰_9
+      - 🇨🇳 _CN_中国_2
+      - 🇺🇸 _US_美国_1
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇰🇷 _KR_韩国
+      - 🇸🇬 _SG_新加坡_1
+      - 🇸🇬 _SG_新加坡_2
+      - 🇸🇬 _SG_新加坡->🇯🇵_JP_日本
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 _US_美国_2
+      - 🇦🇹 _FR_法国->🇦🇹_AT_奥地利
+      - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
+      - 🇸🇬 _SG_新加坡_3
+      - 🇸🇬 _SG_新加坡_4
       - 中国-浙江-杭州-ss-04-1.qqingca.cc:20371
       - 中国-浙江-杭州-ss-04-2.qqingca.cc:20379
       - 中国-浙江-杭州-ss-04-2.qqingca.cc:20349
-      - 中国-浙江-杭州-ss2-02-2.qqingca.cc:20315
       - 中国-浙江-杭州-ss2-04-1.qqingca.cc:20371
       - 中国-浙江-杭州-ss2-04-2.qqingca.cc:20349
-      - 中国-辽宁-鞍山-ss2-free.themars.top:32101
-      - 中国-辽宁-鞍山-v2ray-yuolee.vtcss.top:80
       - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
       - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
-      - 🇺🇸 美国-0-0-v2ray-armus.114514782.xyz:2052
       - 🇸🇬 16|新加坡 004
       - 🇺🇸 19|_🇺🇸_US_美国_由零開始_27__
       - 🇺🇸 -1,16,20|美国 052
@@ -5073,17 +5221,38 @@ proxy-groups:
       - 🇨🇳 CN-111.47.212.60-148
       - 🇨🇳 CN-111.47.212.60-275
       - NOWHERE-0.0.0.0-281
+      - 🇨🇳 _CN_中国_1
+      - 🇫🇷 _FR_法国_1
+      - 🇫🇷 _FR_法国_2
+      - 🇳🇱 _NL_荷兰_1
+      - 🇳🇱 _NL_荷兰_2
+      - 🇳🇱 _NL_荷兰_3
+      - 🇳🇱 _NL_荷兰_4
+      - 🇳🇱 _NL_荷兰_5
+      - 🇳🇱 _NL_荷兰_6
+      - 🇳🇱 _NL_荷兰_7
+      - 🇳🇱 _NL_荷兰_8
+      - 🇳🇱 _NL_荷兰_9
+      - 🇨🇳 _CN_中国_2
+      - 🇺🇸 _US_美国_1
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇰🇷 _KR_韩国
+      - 🇸🇬 _SG_新加坡_1
+      - 🇸🇬 _SG_新加坡_2
+      - 🇸🇬 _SG_新加坡->🇯🇵_JP_日本
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 _US_美国_2
+      - 🇦🇹 _FR_法国->🇦🇹_AT_奥地利
+      - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
+      - 🇸🇬 _SG_新加坡_3
+      - 🇸🇬 _SG_新加坡_4
       - 中国-浙江-杭州-ss-04-1.qqingca.cc:20371
       - 中国-浙江-杭州-ss-04-2.qqingca.cc:20379
       - 中国-浙江-杭州-ss-04-2.qqingca.cc:20349
-      - 中国-浙江-杭州-ss2-02-2.qqingca.cc:20315
       - 中国-浙江-杭州-ss2-04-1.qqingca.cc:20371
       - 中国-浙江-杭州-ss2-04-2.qqingca.cc:20349
-      - 中国-辽宁-鞍山-ss2-free.themars.top:32101
-      - 中国-辽宁-鞍山-v2ray-yuolee.vtcss.top:80
       - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
       - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
-      - 🇺🇸 美国-0-0-v2ray-armus.114514782.xyz:2052
       - 🇸🇬 16|新加坡 004
       - 🇺🇸 19|_🇺🇸_US_美国_由零開始_27__
       - 🇺🇸 -1,16,20|美国 052
@@ -5786,17 +5955,38 @@ proxy-groups:
       - 🇨🇳 CN-111.47.212.60-148
       - 🇨🇳 CN-111.47.212.60-275
       - NOWHERE-0.0.0.0-281
+      - 🇨🇳 _CN_中国_1
+      - 🇫🇷 _FR_法国_1
+      - 🇫🇷 _FR_法国_2
+      - 🇳🇱 _NL_荷兰_1
+      - 🇳🇱 _NL_荷兰_2
+      - 🇳🇱 _NL_荷兰_3
+      - 🇳🇱 _NL_荷兰_4
+      - 🇳🇱 _NL_荷兰_5
+      - 🇳🇱 _NL_荷兰_6
+      - 🇳🇱 _NL_荷兰_7
+      - 🇳🇱 _NL_荷兰_8
+      - 🇳🇱 _NL_荷兰_9
+      - 🇨🇳 _CN_中国_2
+      - 🇺🇸 _US_美国_1
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇰🇷 _KR_韩国
+      - 🇸🇬 _SG_新加坡_1
+      - 🇸🇬 _SG_新加坡_2
+      - 🇸🇬 _SG_新加坡->🇯🇵_JP_日本
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 _US_美国_2
+      - 🇦🇹 _FR_法国->🇦🇹_AT_奥地利
+      - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
+      - 🇸🇬 _SG_新加坡_3
+      - 🇸🇬 _SG_新加坡_4
       - 中国-浙江-杭州-ss-04-1.qqingca.cc:20371
       - 中国-浙江-杭州-ss-04-2.qqingca.cc:20379
       - 中国-浙江-杭州-ss-04-2.qqingca.cc:20349
-      - 中国-浙江-杭州-ss2-02-2.qqingca.cc:20315
       - 中国-浙江-杭州-ss2-04-1.qqingca.cc:20371
       - 中国-浙江-杭州-ss2-04-2.qqingca.cc:20349
-      - 中国-辽宁-鞍山-ss2-free.themars.top:32101
-      - 中国-辽宁-鞍山-v2ray-yuolee.vtcss.top:80
       - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
       - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
-      - 🇺🇸 美国-0-0-v2ray-armus.114514782.xyz:2052
       - 🇸🇬 16|新加坡 004
       - 🇺🇸 19|_🇺🇸_US_美国_由零開始_27__
       - 🇺🇸 -1,16,20|美国 052
