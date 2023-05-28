@@ -127,9 +127,6 @@ proxies:
   - {name: 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋, server: nsafhijklggsddadawscae.559xp5.cn, port: 443, type: trojan, password: 2ba8ac92-1a83-4961-8acb-03156628aa8f, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡_3, server: nsafchjhtijntht.559xp5.cn, port: 443, type: trojan, password: c519d477-7bde-430a-9667-c02b46c31d6d, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡_4, server: li1faiubsvdnasjp2.559xp5.cn, port: 443, type: trojan, password: f0e93980-419f-4d05-ad92-bd9859c2dbed, skip-cert-verify: false}
-  - {name: 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443, server: s2.soly.sbs, port: 443, type: vmess, uuid: 72088fdd-4bf0-48ca-db98-fd180f403a33, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: s2.soly.sbs}}}
-  - {name: 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80, server: v133.toddns.gq, port: 80, type: vmess, uuid: cd1836ed-78be-3dcb-9fb1-9d2a4bdfecb8, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v133PDXkklxLEcOvD, headers: {Host: v133.toddns.gq}}}
-  - {name: 🇩🇪 德国-0-0-v2ray-51.15.75.140:443, server: 51.15.75.140, port: 443, type: vmess, uuid: 4df65f62-99d9-42d1-a4b9-a35b37b26873, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 21|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, type: vmess, uuid: 6a8a5035-51fb-4b76-9a58-b10113aced29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.lovemc.xyz}
   - {name: 🇨🇾 16|塞浦路斯 004, server: 203.29.53.179, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
   - {name: 🇨🇳 5|🇨🇳 中国【付费推荐：v1.mk/vip】44, server: 03-1.qqingca.cc, port: 20341, type: ss, cipher: chacha20-ietf-poly1305, password: 27e2f037-effd-493a-bd28-6004cd9ff1cf}
@@ -871,9 +868,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
-      - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
-      - 🇩🇪 德国-0-0-v2ray-51.15.75.140:443
       - 🇨🇳 21|台湾 05  | 1x TWN
       - 🇨🇾 16|塞浦路斯 004
       - 🇨🇳 5|🇨🇳 中国【付费推荐：v1.mk/vip】44
@@ -1614,9 +1608,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
-      - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
-      - 🇩🇪 德国-0-0-v2ray-51.15.75.140:443
       - 🇨🇳 21|台湾 05  | 1x TWN
       - 🇨🇾 16|塞浦路斯 004
       - 🇨🇳 5|🇨🇳 中国【付费推荐：v1.mk/vip】44
@@ -2358,9 +2349,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
-      - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
-      - 🇩🇪 德国-0-0-v2ray-51.15.75.140:443
       - 🇨🇳 21|台湾 05  | 1x TWN
       - 🇨🇾 16|塞浦路斯 004
       - 🇨🇳 5|🇨🇳 中国【付费推荐：v1.mk/vip】44
@@ -3114,9 +3102,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
-      - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
-      - 🇩🇪 德国-0-0-v2ray-51.15.75.140:443
       - 🇨🇳 21|台湾 05  | 1x TWN
       - 🇨🇾 16|塞浦路斯 004
       - 🇨🇳 5|🇨🇳 中国【付费推荐：v1.mk/vip】44
@@ -3890,9 +3875,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
-      - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
-      - 🇩🇪 德国-0-0-v2ray-51.15.75.140:443
       - 🇨🇳 21|台湾 05  | 1x TWN
       - 🇨🇾 16|塞浦路斯 004
       - 🇨🇳 5|🇨🇳 中国【付费推荐：v1.mk/vip】44
@@ -4633,9 +4615,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
-      - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
-      - 🇩🇪 德国-0-0-v2ray-51.15.75.140:443
       - 🇨🇳 21|台湾 05  | 1x TWN
       - 🇨🇾 16|塞浦路斯 004
       - 🇨🇳 5|🇨🇳 中国【付费推荐：v1.mk/vip】44
@@ -5377,9 +5356,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
-      - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
-      - 🇩🇪 德国-0-0-v2ray-51.15.75.140:443
       - 🇨🇳 21|台湾 05  | 1x TWN
       - 🇨🇾 16|塞浦路斯 004
       - 🇨🇳 5|🇨🇳 中国【付费推荐：v1.mk/vip】44
@@ -6130,9 +6106,6 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡->🇦🇪_AE_阿联酋
       - 🇸🇬 _SG_新加坡_3
       - 🇸🇬 _SG_新加坡_4
-      - 🇺🇸 美国-马萨诸塞-0-v2ray-s2.soly.sbs:443
-      - 🇺🇸 美国-马萨诸塞-0-v2ray-v133.toddns.gq:80
-      - 🇩🇪 德国-0-0-v2ray-51.15.75.140:443
       - 🇨🇳 21|台湾 05  | 1x TWN
       - 🇨🇾 16|塞浦路斯 004
       - 🇨🇳 5|🇨🇳 中国【付费推荐：v1.mk/vip】44
